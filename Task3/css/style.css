@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+}
+.form-wrapper{
+    border:5px solid blue;
+    max-width: 500px;
+    margin: auto;
+    height: 500px;
+    padding: 20px;
+}
+.form-wrapper h1{
+    margin-top: 0px;
+}
+.form-wrapper legend{
+    color: blue;
+    font-weight: bolder;
+}
+.form-wrapper .form-item{
+    margin: 10px 0px;
+}
+.form-wrapper label{
+    width: 120px;
+    display: inline-block;
+}
+.form-wrapper input{
+    width: 150px;
+}
+.form-wrapper input[type=date]{
+    width: 153px;
+}
+.form-wrapper select{
+    width: 158px;
+}
